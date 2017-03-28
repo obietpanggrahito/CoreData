@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="62" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QMc-mb-Cd9">
+                                <rect key="frame" x="0.0" y="164" width="375" height="503"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="503" id="GhQ-af-Mge"/>
+                                </constraints>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StudentCell" textLabel="aIW-Uo-tiw" detailTextLabel="oAp-tX-JD6" rowHeight="62" style="IBUITableViewCellStyleSubtitle" id="QmM-4q-wxv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="62"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QmM-4q-wxv" id="5Cl-dw-QWy">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="61"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aIW-Uo-tiw">
+                                                    <rect key="frame" x="15" y="13" width="34" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oAp-tX-JD6">
+                                                    <rect key="frame" x="15" y="34" width="44" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iJr-dP-Y8M">
+                                <rect key="frame" x="32" y="20" width="291" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Gender" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ipg-rf-87p">
+                                <rect key="frame" x="32" y="68" width="291" height="40"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bzg-IM-zZE">
+                                <rect key="frame" x="335" y="20" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="84o-cR-GHu"/>
+                                    <constraint firstAttribute="width" constant="40" id="Ecm-TA-xjD"/>
+                                </constraints>
+                                <state key="normal" title="Add"/>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5jg-Pc-HrJ">
+                                <rect key="frame" x="32" y="116" width="291" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DQh-eR-LdS"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iJr-dP-Y8M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="3Bd-nn-YMy"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="top" secondItem="ipg-rf-87p" secondAttribute="bottom" constant="8" symbolic="YES" id="68b-QC-dMT"/>
+                            <constraint firstItem="QMc-mb-Cd9" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="7ZC-2c-Im2"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="leading" secondItem="iJr-dP-Y8M" secondAttribute="leading" id="9Dl-Be-BA7"/>
+                            <constraint firstItem="ipg-rf-87p" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="Et5-FA-MRF"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="FiS-dl-J7m"/>
+                            <constraint firstItem="bzg-IM-zZE" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="16" id="IO2-Er-vMd"/>
+                            <constraint firstItem="bzg-IM-zZE" firstAttribute="bottom" secondItem="iJr-dP-Y8M" secondAttribute="bottom" id="JnC-Y0-BNY"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="leading" secondItem="ipg-rf-87p" secondAttribute="leading" id="LT8-ky-oUF"/>
+                            <constraint firstItem="iJr-dP-Y8M" firstAttribute="top" secondItem="bzg-IM-zZE" secondAttribute="top" id="LtB-7h-Eaq"/>
+                            <constraint firstItem="QMc-mb-Cd9" firstAttribute="top" secondItem="5jg-Pc-HrJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Mq5-Nl-Gn7"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="trailing" secondItem="ipg-rf-87p" secondAttribute="trailing" id="Wvr-HQ-VfW"/>
+                            <constraint firstItem="bzg-IM-zZE" firstAttribute="leading" secondItem="iJr-dP-Y8M" secondAttribute="trailing" constant="12" id="Z1U-Os-464"/>
+                            <constraint firstAttribute="trailing" secondItem="QMc-mb-Cd9" secondAttribute="trailing" id="a7K-d1-LDG"/>
+                            <constraint firstItem="ipg-rf-87p" firstAttribute="top" secondItem="iJr-dP-Y8M" secondAttribute="bottom" constant="8" id="aak-f3-HLO"/>
+                            <constraint firstItem="iJr-dP-Y8M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="eIu-JT-ct7"/>
+                            <constraint firstItem="ipg-rf-87p" firstAttribute="height" secondItem="iJr-dP-Y8M" secondAttribute="height" id="fV3-PS-MUh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5jg-Pc-HrJ" secondAttribute="trailing" constant="36" id="m6h-hG-cJm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ipg-rf-87p" secondAttribute="trailing" constant="36" id="tH5-XT-MZn"/>
+                            <constraint firstItem="QMc-mb-Cd9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="v7U-uP-uEq"/>
+                            <constraint firstItem="5jg-Pc-HrJ" firstAttribute="trailing" secondItem="iJr-dP-Y8M" secondAttribute="trailing" id="yLP-SE-EBo"/>
+                            <constraint firstItem="QMc-mb-Cd9" firstAttribute="top" secondItem="5jg-Pc-HrJ" secondAttribute="bottom" constant="8" id="ynx-mP-WQf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageTextField" destination="5jg-Pc-HrJ" id="CpD-2v-kjg"/>
+                        <outlet property="buttonAdd" destination="bzg-IM-zZE" id="E4i-H3-7AX"/>
+                        <outlet property="genderTextField" destination="ipg-rf-87p" id="M9r-Wj-0Q2"/>
+                        <outlet property="tableView" destination="QMc-mb-Cd9" id="5LQ-QK-Seh"/>
+                        <outlet property="textField" destination="iJr-dP-Y8M" id="8y7-Fq-WGd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="140" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>
