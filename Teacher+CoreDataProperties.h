@@ -2,7 +2,7 @@
 //  Teacher+CoreDataProperties.h
 //  StudentDirectory
 //
-//  Created by Obiet Panggrahito on 28/03/2017.
+//  Created by Obiet Panggrahito on 29/03/2017.
 //  Copyright © 2017 Obiet Panggrahito. All rights reserved.
 //
 
@@ -17,6 +17,16 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, copy) NSString *name;
 @property (nullable, nonatomic, copy) NSString *subject;
+@property (nullable, nonatomic, retain) NSSet<Student *> *student;
+
+@end
+
+@interface Teacher (CoreDataGeneratedAccessors)
+
+- (void)addStudentObject:(Student *)value;
+- (void)removeStudentObject:(Student *)value;
+- (void)addStudent:(NSSet<Student *> *)values;
+- (void)removeStudent:(NSSet<Student *> *)values;
 
 @end
 

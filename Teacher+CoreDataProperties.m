@@ -2,7 +2,7 @@
 //  Teacher+CoreDataProperties.m
 //  StudentDirectory
 //
-//  Created by Obiet Panggrahito on 28/03/2017.
+//  Created by Obiet Panggrahito on 29/03/2017.
 //  Copyright © 2017 Obiet Panggrahito. All rights reserved.
 //
 
@@ -16,5 +16,6 @@
 
 @dynamic name;
 @dynamic subject;
+@dynamic student;
 
 @end

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1F54C71E8B5A5900A7EFE4 /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54C01E8B5A5900A7EFE4 /* Student+CoreDataClass.m */; };
+		3D1F54C81E8B5A5900A7EFE4 /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54C21E8B5A5900A7EFE4 /* Student+CoreDataProperties.m */; };
+		3D1F54C91E8B5A5900A7EFE4 /* Teacher+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54C41E8B5A5900A7EFE4 /* Teacher+CoreDataClass.m */; };
+		3D1F54CA1E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54C61E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.m */; };
+		3D1F54CD1E8B5B8A00A7EFE4 /* TeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54CC1E8B5B8A00A7EFE4 /* TeacherViewController.m */; };
+		3D1F54D01E8B9F2B00A7EFE4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F54CF1E8B9F2B00A7EFE4 /* DetailViewController.m */; };
 		3DAC99BB1E8A021900292F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99BA1E8A021900292F8F /* main.m */; };
 		3DAC99BE1E8A021900292F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99BD1E8A021900292F8F /* AppDelegate.m */; };
 		3DAC99C11E8A021900292F8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99C01E8A021900292F8F /* ViewController.m */; };
@@ -14,14 +20,22 @@
 		3DAC99C71E8A021900292F8F /* StudentDirectory.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99C51E8A021900292F8F /* StudentDirectory.xcdatamodeld */; };
 		3DAC99C91E8A021900292F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC99C81E8A021900292F8F /* Assets.xcassets */; };
 		3DAC99CC1E8A021900292F8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAC99CA1E8A021900292F8F /* LaunchScreen.storyboard */; };
-		3DAC99DB1E8A176E00292F8F /* Teacher+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99D41E8A176E00292F8F /* Teacher+CoreDataClass.m */; };
-		3DAC99DC1E8A176E00292F8F /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99D61E8A176E00292F8F /* Teacher+CoreDataProperties.m */; };
-		3DAC99DD1E8A176E00292F8F /* Student+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99D81E8A176E00292F8F /* Student+CoreDataClass.m */; };
-		3DAC99DE1E8A176E00292F8F /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99DA1E8A176E00292F8F /* Student+CoreDataProperties.m */; };
 		3DAC99E31E8A449A00292F8F /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAC99E21E8A449A00292F8F /* CoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1F54BF1E8B5A5900A7EFE4 /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
+		3D1F54C01E8B5A5900A7EFE4 /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
+		3D1F54C11E8B5A5900A7EFE4 /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D1F54C21E8B5A5900A7EFE4 /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D1F54C31E8B5A5900A7EFE4 /* Teacher+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataClass.h"; sourceTree = "<group>"; };
+		3D1F54C41E8B5A5900A7EFE4 /* Teacher+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataClass.m"; sourceTree = "<group>"; };
+		3D1F54C51E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		3D1F54C61E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		3D1F54CB1E8B5B8A00A7EFE4 /* TeacherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherViewController.h; sourceTree = "<group>"; };
+		3D1F54CC1E8B5B8A00A7EFE4 /* TeacherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherViewController.m; sourceTree = "<group>"; };
+		3D1F54CE1E8B9F2B00A7EFE4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		3D1F54CF1E8B9F2B00A7EFE4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		3DAC99B61E8A021900292F8F /* StudentDirectory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentDirectory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DAC99BA1E8A021900292F8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DAC99BC1E8A021900292F8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,14 +47,6 @@
 		3DAC99C81E8A021900292F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DAC99CB1E8A021900292F8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DAC99CD1E8A021900292F8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DAC99D31E8A176E00292F8F /* Teacher+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataClass.h"; sourceTree = "<group>"; };
-		3DAC99D41E8A176E00292F8F /* Teacher+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataClass.m"; sourceTree = "<group>"; };
-		3DAC99D51E8A176E00292F8F /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
-		3DAC99D61E8A176E00292F8F /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
-		3DAC99D71E8A176E00292F8F /* Student+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataClass.h"; sourceTree = "<group>"; };
-		3DAC99D81E8A176E00292F8F /* Student+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataClass.m"; sourceTree = "<group>"; };
-		3DAC99D91E8A176E00292F8F /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
-		3DAC99DA1E8A176E00292F8F /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
 		3DAC99E11E8A449A00292F8F /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
 		3DAC99E21E8A449A00292F8F /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +86,12 @@
 				3DAC99BD1E8A021900292F8F /* AppDelegate.m */,
 				3DAC99E11E8A449A00292F8F /* CoreDataManager.h */,
 				3DAC99E21E8A449A00292F8F /* CoreDataManager.m */,
+				3D1F54CB1E8B5B8A00A7EFE4 /* TeacherViewController.h */,
+				3D1F54CC1E8B5B8A00A7EFE4 /* TeacherViewController.m */,
 				3DAC99BF1E8A021900292F8F /* ViewController.h */,
 				3DAC99C01E8A021900292F8F /* ViewController.m */,
+				3D1F54CE1E8B9F2B00A7EFE4 /* DetailViewController.h */,
+				3D1F54CF1E8B9F2B00A7EFE4 /* DetailViewController.m */,
 				3DAC99C21E8A021900292F8F /* Main.storyboard */,
 				3DAC99C81E8A021900292F8F /* Assets.xcassets */,
 				3DAC99CA1E8A021900292F8F /* LaunchScreen.storyboard */,
@@ -103,14 +113,14 @@
 		3DAC99E01E8A358B00292F8F /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				3DAC99D31E8A176E00292F8F /* Teacher+CoreDataClass.h */,
-				3DAC99D41E8A176E00292F8F /* Teacher+CoreDataClass.m */,
-				3DAC99D51E8A176E00292F8F /* Teacher+CoreDataProperties.h */,
-				3DAC99D61E8A176E00292F8F /* Teacher+CoreDataProperties.m */,
-				3DAC99D71E8A176E00292F8F /* Student+CoreDataClass.h */,
-				3DAC99D81E8A176E00292F8F /* Student+CoreDataClass.m */,
-				3DAC99D91E8A176E00292F8F /* Student+CoreDataProperties.h */,
-				3DAC99DA1E8A176E00292F8F /* Student+CoreDataProperties.m */,
+				3D1F54BF1E8B5A5900A7EFE4 /* Student+CoreDataClass.h */,
+				3D1F54C01E8B5A5900A7EFE4 /* Student+CoreDataClass.m */,
+				3D1F54C11E8B5A5900A7EFE4 /* Student+CoreDataProperties.h */,
+				3D1F54C21E8B5A5900A7EFE4 /* Student+CoreDataProperties.m */,
+				3D1F54C31E8B5A5900A7EFE4 /* Teacher+CoreDataClass.h */,
+				3D1F54C41E8B5A5900A7EFE4 /* Teacher+CoreDataClass.m */,
+				3D1F54C51E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.h */,
+				3D1F54C61E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.m */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -186,15 +196,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DAC99DD1E8A176E00292F8F /* Student+CoreDataClass.m in Sources */,
-				3DAC99DE1E8A176E00292F8F /* Student+CoreDataProperties.m in Sources */,
 				3DAC99C11E8A021900292F8F /* ViewController.m in Sources */,
+				3D1F54C71E8B5A5900A7EFE4 /* Student+CoreDataClass.m in Sources */,
+				3D1F54C91E8B5A5900A7EFE4 /* Teacher+CoreDataClass.m in Sources */,
 				3DAC99E31E8A449A00292F8F /* CoreDataManager.m in Sources */,
 				3DAC99C71E8A021900292F8F /* StudentDirectory.xcdatamodeld in Sources */,
-				3DAC99DC1E8A176E00292F8F /* Teacher+CoreDataProperties.m in Sources */,
+				3D1F54CA1E8B5A5900A7EFE4 /* Teacher+CoreDataProperties.m in Sources */,
 				3DAC99BE1E8A021900292F8F /* AppDelegate.m in Sources */,
+				3D1F54D01E8B9F2B00A7EFE4 /* DetailViewController.m in Sources */,
+				3D1F54C81E8B5A5900A7EFE4 /* Student+CoreDataProperties.m in Sources */,
 				3DAC99BB1E8A021900292F8F /* main.m in Sources */,
-				3DAC99DB1E8A176E00292F8F /* Teacher+CoreDataClass.m in Sources */,
+				3D1F54CD1E8B5B8A00A7EFE4 /* TeacherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +363,7 @@
 				3DAC99D21E8A021900292F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

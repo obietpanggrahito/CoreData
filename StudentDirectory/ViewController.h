@@ -10,7 +10,13 @@
 //17
 #import <CoreData/CoreData.h>
 
+//67
+#import "Teacher+CoreDataClass.h"
+
 @interface ViewController : UIViewController
+
+//68
+@property (nonatomic, strong) Teacher *currentTeacher; 
 
 //18
 //31 remove this

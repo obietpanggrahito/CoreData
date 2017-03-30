@@ -2,7 +2,7 @@
 //  Student+CoreDataProperties.h
 //  StudentDirectory
 //
-//  Created by Obiet Panggrahito on 28/03/2017.
+//  Created by Obiet Panggrahito on 29/03/2017.
 //  Copyright © 2017 Obiet Panggrahito. All rights reserved.
 //
 
@@ -15,9 +15,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSFetchRequest<Student *> *)fetchRequest;
 
-@property (nullable, nonatomic, copy) NSString *name;
-@property (nullable, nonatomic, copy) NSString *gender;
 @property (nonatomic) int16_t age;
+@property (nullable, nonatomic, copy) NSString *gender;
+@property (nullable, nonatomic, copy) NSString *name;
+@property (nullable, nonatomic, retain) Teacher *teacher;
 
 @end
 
